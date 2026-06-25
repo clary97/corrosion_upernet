@@ -1,0 +1,11 @@
+# Python 3.10 / segformer 환경 기준
+# torch·torchvision 은 CUDA 12.x 빌드(+cu132). GPU 환경에 맞는 빌드는
+# https://pytorch.org 의 안내에 따라 설치하세요.
+torch==2.12.1
+torchvision==0.27.1
+transformers==5.12.1
+albumentations==2.0.8
+opencv-python==4.13.0.92
+scikit-learn==1.7.2
+numpy==2.2.6
+tqdm==4.68.3
